@@ -1,0 +1,21 @@
+{
+	"plugins": [
+	"@babel/plugin-syntax-dynamic-import",
+	"@babel/plugin-syntax-import-meta",
+	[
+	"@babel/plugin-proposal-class-properties",
+	{
+	"loose": false
+	}
+	],
+	"@babel/plugin-proposal-json-strings",
+	"@babel/proposal-async-generator-functions",
+	"@babel/proposal-object-rest-spread",
+	"@babel/transform-arrow-functions",
+	"@babel/transform-runtime"
+	],
+	"presets": [
+	"@babel/preset-env"
+	],
+	"comments": false
+	}
